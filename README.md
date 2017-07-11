@@ -1,2 +1,3 @@
-# wmt17-newstask
-Data and code for replicating LIUM WMT17 News Translation Systems
+# LIUM WMT17 Systems for News Translation Task
+
+## En<->Tr
