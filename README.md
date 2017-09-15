@@ -33,7 +33,7 @@ where the target (TR) side samples are from monolingual Turkish data [`news.2016
 
 - **Ready to use** SETIMES2+BT combinations:
   - [Download](http://lium.univ-lemans.fr/~caglayan/wmt17-newstask/en-tr-16k.bpe) joint BPE (16K merge ops) trained on bitext.
-  - BPE-ized, SETIMES2-200K+BT-150K (~350K total) [corpora](http://lium.univ-lemans.fr/~caglayan/wmt17-newstask/SETIMES2-200K+BT-150K.tar.bz2)
-  - BPE-ized, SETIMES2-200K+BT-700K (~900K total) [corpora](http://lium.univ-lemans.fr/~caglayan/wmt17-newstask/SETIMES2-200K+BT-700K.tar.bz2)
-  - BPE-ized, SETIMES2-200K+BT-1M (~1.2M total) [corpora](http://lium.univ-lemans.fr/~caglayan/wmt17-newstask/SETIMES2-200K+BT-1M.tar.bz2)
+  - BPE-ized, SETIMES2-200K+BT-150K (~350K total) [corpora (21M)](http://lium.univ-lemans.fr/~caglayan/wmt17-newstask/SETIMES2-200K+BT-150K.tar.bz2)
+  - BPE-ized, SETIMES2-200K+BT-700K (~900K total) [corpora (51M)](http://lium.univ-lemans.fr/~caglayan/wmt17-newstask/SETIMES2-200K+BT-700K.tar.bz2)
+  - BPE-ized, SETIMES2-200K+BT-1M (~1.2M total) [corpora (72M)](http://lium.univ-lemans.fr/~caglayan/wmt17-newstask/SETIMES2-200K+BT-1M.tar.bz2)
   
