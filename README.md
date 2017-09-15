@@ -25,10 +25,15 @@ Below you will find the data and [nmtpy](https://github.com/lium-lst/nmtpy) conf
 
 (Note: Turkish side of the corpora below is tokenized with a [slightly modified version](scripts/tokenizerv2.perl) of Moses tokenizer which handles apostrophes correctly for Turkish.)
 
-[Download (13M)](http://lium.univ-lemans.fr/~caglayan/wmt17-newstask/setimes2.norm.min3max50.tok.tar.bz2) our normalized/tokenized/length-filtered version of officially provided [SETIMES2](http://opus.lingfil.uu.se/SETIMES2.php) with ~200K sentences.
+- [Download (13M)](http://lium.univ-lemans.fr/~caglayan/wmt17-newstask/setimes2.norm.min3max50.tok.tar.bz2) our normalized/tokenized/length-filtered version of officially provided [SETIMES2](http://opus.lingfil.uu.se/SETIMES2.php) with ~200K sentences.
 
-#### Back-translations
+- [Download (96M)](http://lium.univ-lemans.fr/~caglayan/wmt17-newstask/news2016-BT-EN-TR.tar.bz2)
+**the exact** incremental subsamples of 150K, 700K and 1M parallel back-translation corpora used in the **paper**
+where the target (TR) side samples are from monolingual Turkish data [`news.2016.shuffled`](http://data.statmt.org/wmt17/translation-task/news.2016.tr.shuffled.gz). The sentences are translated into EN with a single TR->EN NMT system (~14 BLEU on newstest2016).
 
-[Download (96M)](http://lium.univ-lemans.fr/~caglayan/wmt17-newstask/news2016-BT-EN-TR.tar.bz2)
-incremental subsamples of 150K, 700K and 1M parallel back-translation corpora
-where the target(TR) side samples are from monolingual Turkish data [`news.2016.shuffled`](http://data.statmt.org/wmt17/translation-task/news.2016.tr.shuffled.gz). The sentences are translated into EN with a single TR->EN NMT system (~14 BLEU on newstest2016).
+- **Ready to use** SETIMES2+BT combinations:
+  - [Download](http://lium.univ-lemans.fr/~caglayan/wmt17-newstask/en-tr-16k.bpe) joint BPE (16K merge ops) trained on bitext.
+  - BPE-ized, SETIMES2-200K+BT-150K (~350K total) [corpora](http://lium.univ-lemans.fr/~caglayan/wmt17-newstask/SETIMES2-200K+BT-150K.tar.bz2)
+  - BPE-ized, SETIMES2-200K+BT-700K (~900K total) [corpora](http://lium.univ-lemans.fr/~caglayan/wmt17-newstask/SETIMES2-200K+BT-700K.tar.bz2)
+  - BPE-ized, SETIMES2-200K+BT-1M (~1.2M total) [corpora](http://lium.univ-lemans.fr/~caglayan/wmt17-newstask/SETIMES2-200K+BT-1M.tar.bz2)
+  
