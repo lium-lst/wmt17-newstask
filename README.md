@@ -1,5 +1,24 @@
 # LIUM WMT17 Systems for News Translation Task
 
+Below you will find the data and [nmtpy](https://github.com/lium-lst/nmtpy) configurations for LIUM's WMT17 News Translation systems (see [paper](http://www.aclweb.org/anthology/W17-4726.pdf)):
+
+```
+@InProceedings{garciamartinez-EtAl:2017:WMT,
+  author    = {Garc\'{i}a-Mart\'{i}nez, Mercedes  and
+               Caglayan, Ozan  and  Aransa, Walid
+               and  Bardet, Adrien  and  Bougares, Fethi
+               and  Barrault, Lo\"{i}c},
+  title     = {LIUM Machine Translation Systems for WMT17 News Translation Task},
+  booktitle = {Proceedings of the Second Conference on Machine Translation, Volume 2: Shared Task Papers},
+  month     = {September},
+  year      = {2017},
+  address   = {Copenhagen, Denmark},
+  publisher = {Association for Computational Linguistics},
+  pages     = {288--295},
+  url       = {http://www.aclweb.org/anthology/W17-4726.pdf}
+}
+```
+
 ## En->Tr Systems
 
 ### Data
